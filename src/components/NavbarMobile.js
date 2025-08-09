@@ -19,8 +19,10 @@ const NavbarMobile = () => {
                     </Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
-            <Menu.Item as='a'>
-                Sign in
+            <Menu.Item position="right">
+                <Button color="orange">
+                    Register
+                </Button>
             </Menu.Item>
            </Menu>
         </div>
